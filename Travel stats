@@ -1,0 +1,9 @@
+def travel_statistics():
+    average_speed = int(input("please enter the average speed in km/h"))
+    duration = int(input("please enter the duration of the journey"))
+    distance = average_speed * duration
+    print("distance traveled",distance)
+    mpg = distance / 5 
+    print("mpg",mpg)
+
+travel_statistics()
