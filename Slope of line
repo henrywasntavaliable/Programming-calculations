@@ -1,0 +1,13 @@
+def slope_of_line():
+    x_1 = float(input("Please enter X1"))
+    x_2 = float(input("Please enter X2"))
+    y_1 = float(input("Please enter Y1"))
+    y_2 = float(input("Please enter Y2"))
+    
+    if x_2 == x_1:
+        print("line is vertical, cannot be calc'd")
+    else:
+        slope = (y_2-y_1) / (x_2-x_1)
+        print(slope)
+
+slope_of_line()
