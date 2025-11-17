@@ -1,0 +1,9 @@
+import math
+
+def circle_cum():
+    radius = 50
+    y_coc = float(input("Please enter Y of center of circle"))
+    cum = 2 * math.pi * radius
+    print (cum)
+    
+circle_cum()
