@@ -1,0 +1,8 @@
+def speed_calc():
+    distance = float(input("Please enter the distance traveled"))
+    time = float(input("Please enter the time traveled"))
+    speed = distance / time 
+    print(speed)
+
+speed_calc()
+
