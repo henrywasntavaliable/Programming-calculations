@@ -1,0 +1,9 @@
+import math 
+def cost_of_pizza():
+    diameter = float(input("Please enter the diameter of the pizza in cm"))
+    radius = diameter / 2 
+    area = math.pi * radius ** 2 
+    cost_pence = area * 3.5 
+    cost_pounds = cost_pence / 100 
+    print(cost_pounds)
+cost_of_pizza()
