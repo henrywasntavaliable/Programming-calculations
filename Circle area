@@ -1,0 +1,8 @@
+import math
+def area_circle():
+    #pi r squared 
+    radius = float(input("Please enter the radius"))
+    area = math.pi * radius ** 2 
+    print (area)
+
+area_circle()
